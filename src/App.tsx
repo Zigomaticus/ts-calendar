@@ -4,8 +4,11 @@ import { createDate } from "./utils/helpers/date/createDate";
 // Css
 import "./static/css/global.css";
 
-console.log(createDate({locale: 'en-US'}));
+console.log(createDate({ locale: "en-US" }));
 
+function test(str: string) {
+  console.log("test");
+}
 
 const App: FC = () => {
   return <div className="app__container">Calendar</div>;
