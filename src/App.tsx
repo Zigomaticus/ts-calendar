@@ -9,6 +9,9 @@ console.log(createDate({ locale: "en-US" }));
 function test(str: string) {
   console.log("test");
 }
+function test2(str: string) {
+  console.log("test 2");
+}
 
 const App: FC = () => {
   return <div className="app__container">Calendar</div>;
